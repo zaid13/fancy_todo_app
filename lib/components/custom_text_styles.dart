@@ -18,6 +18,8 @@ class CustomText extends StatelessWidget {
       textStyle: Theme.of(context).textTheme.headline4,
       fontSize: size,
       fontWeight: FontWeight.normal,
+      color: Colors.white,
+
       // fontStyle: FontStyle.italic,
     ),);
   }

@@ -1,10 +1,28 @@
-import 'package:fancy_todo_app/pages/main_page.dart';
+import 'package:fancy_todo_app/pages/main_page/main_page.dart';
+import 'package:fancy_todo_app/services/db_service.dart';
+import 'package:fancy_todo_app/task_list_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'animated_container.dart';
 
-void main() {
-  runApp(const MyApp());
+
+
+
+Future<void> main() async {
+ await WidgetsFlutterBinding.ensureInitialized();
+
+
+  db_service =  DB_Service();
+
+  runApp(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (_) => TaskListProvider()),
+        ],
+        child: const MyApp(),
+      ),
+     );
 }
 
 class MyApp extends StatelessWidget {
@@ -16,8 +34,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
+        primaryColor: Colors.white,
+        primaryColorLight: Colors.white
 
-        primarySwatch: Colors.blue,
       ),
       home:  MainPage(),
     );

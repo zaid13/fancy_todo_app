@@ -5,7 +5,7 @@
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 
-const String _loremIpsumParagraph =
+const String loremIpsumParagraph =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod '
     'tempor incididunt ut labore et dolore magna aliqua. Vulputate dignissim '
     'suspendisse in est. Ut ornare lectus sit amet. Eget nunc lobortis mattis '
@@ -285,7 +285,7 @@ class _DetailsPage extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 Text(
-                  _loremIpsumParagraph,
+                  loremIpsumParagraph,
                   style: Theme.of(context).textTheme.bodyMedium!.copyWith(
                     color: Colors.black54,
                     height: 1.5,
