@@ -1,10 +1,8 @@
-import 'package:animations/animations.dart';
+
 import 'package:fancy_todo_app/components/custom_text_styles.dart';
 import 'package:fancy_todo_app/pages/main_page/componenets.dart';
 import 'package:flutter/material.dart';
 import 'package:fancy_todo_app/util/colors.dart';
-
-import '../../animated_container.dart';
 import '../../services/db_service.dart';
 import '../../util/imagesPath.dart';
 import '../goals/goals.dart';
