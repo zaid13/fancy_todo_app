@@ -1,16 +1,16 @@
-# fancy_todo_app
+# fancy_todo_app 🔥
 
-A new Flutter project.
+A todo app that uses internal storage to store the list of tasks using state management with following plugins 
+  - [localstore](https://pub.dev/packages/localstorage)
+  - [provider](https://pub.dev/packages/provider)
+  - [permission_handler](https://pub.dev/packages/permission_handler)
+  - [flutter_form_builder](https://pub.dev/packages/flutter_form_builder)
+  - [json_annotation](https://pub.dev/packages/json_annotation)
+  - [google_fonts](https://pub.dev/packages/google_fonts)
 
-## Getting Started
+## Design file 
 
-This project is a starting point for a Flutter application.
+https://www.figma.com/file/HWWrh1FUKhTfwQsFp4dRy8/Goals---Test-Project-(Copy)?node-id=0-1&t=Kn5KqIHC16J463HJ-0
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
